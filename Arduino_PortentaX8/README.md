@@ -1,0 +1,1 @@
+This directory is for projects with Arduino Portenta X8.
