@@ -124,12 +124,10 @@ void loop() {
             break;
           default:
             break;
-          } // switch
-        } // for loop
+          }
+        }
 
 #if !DEBUGOUTPUT
-
-        // *** Add your code here ***
 
         if(bigPacket) {
           if(poorQuality == 0)
@@ -196,8 +194,8 @@ void loop() {
         bigPacket = false;        
       }
       else {
-        // Checksum Error
-      }  // end if else for checksum
-    } // end if read 0xAA byte
-  } // end if read 0xAA byte
+
+      }
+    }
+  }
 }
