@@ -25,7 +25,7 @@ The system uses:
 
 - **Pulley System with Metal Ball**: The physical manifestation of your mental effort.
 
-The Arduino code (written in C) receives attention level values from the NeuroSky headset via Bluetooth. The headset measures your concentration level on a scale from 0-100, and the Arduino maps these values to servo positions. As your concentration increases, the servo rotates to a wider angle, pulling up the metal ball on the pulley system. The more you focus, the higher the ball rises!
+The Arduino code (written in C++) receives attention level values from the NeuroSky headset via Bluetooth. The headset measures your concentration level on a scale from 0-100, and the Arduino maps these values to servo positions. As your concentration increases, the servo rotates to a wider angle, pulling up the metal ball on the pulley system. The more you focus, the higher the ball rises!
 
 When your attention level is low (0-10), the servo moves to 0°. At maximum concentration (90-100), the servo rotates to 180°, lifting the ball to its highest position. This creates a visual feedback loop - seeing the ball rise encourages even deeper concentration.
 
